@@ -15,7 +15,7 @@ function App() {
         <Navbar />
         <main className="flex-1 flex p-4 overflow-hidden">
           <Routes>
-            <Route path="/" element={<Contacts />} />
+            <Route path="/"  element={<Contacts />} />
             <Route path="/charts-and-maps" element={<ChartsAndMaps />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
