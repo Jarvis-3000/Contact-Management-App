@@ -13,7 +13,7 @@ const Contacts: React.FC = () => {
   const [isAdding, setIsAdding] = useState(false);
 
   return (
-    <div className="p-4 space-y-4">
+    <div className="flex-1 p-4 space-y-4">
       <Button onClick={() => setIsAdding((prev) => !prev)}>
         <img src={AddIcon} alt="add icon" />
         New Contact
