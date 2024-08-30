@@ -38,7 +38,7 @@ function LineChart() {
   }, [data]);
 
   return (
-    <div className="h-[700px] w-full">
+    <div className="w-full">
       <Line
         data={chartData}
         options={{
