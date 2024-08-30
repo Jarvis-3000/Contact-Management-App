@@ -31,7 +31,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ initialData, onSubmit }) => {
         <label className="block text-gray-700">First Name:</label>
         <input
           type="text"
-          className="w-[350px] p-2 border border-gray-300 rounded mt-1"
+          className="min-w-[100px] w-[350px] p-2 border border-gray-300 rounded mt-1"
           value={firstname}
           onChange={(e) => setFirstname(e.target.value)}
         />
@@ -41,7 +41,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ initialData, onSubmit }) => {
         <label className="block text-gray-700">Last Name:</label>
         <input
           type="text"
-          className="w-[350px] p-2 border border-gray-300 rounded mt-1"
+          className="min-w-[100px] w-[350px] p-2 border border-gray-300 rounded mt-1"
           value={lastname}
           onChange={(e) => setLastname(e.target.value)}
         />
