@@ -1,3 +1,38 @@
+# Introduction
+This is a Contact Management App that creates and lists all the contacts.
+
+# Contacts
+- User can Add contact by entering the details
+- User Can view/edit/delete the contact
+
+# Chart And Map
+- Using React Quey to fetch data Chart.js library to show COVID-19 cases
+- Using React Quey to fetch country data and show using react-leaflet map
+- Click on pointers to view details on Map
+
+# Technologies
+- React
+- Vite
+- Typescript
+- TailwindCSS
+- React-router-dom
+- uuid for generating unique id
+- Redux Toolkit and React-redux
+- React Query
+- Leaflet for map
+- Chartjs for chart
+
+# How to Run
+[Open Deployed Link](https://contact-management-app-taiyo.vercel.app/)
+OR
+Clone the repo
+Install all the tools and dependencies using npm install
+run the command "npm run dev"
+  
+
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
