@@ -28,7 +28,7 @@ function Map() {
   }, [countryData]);
 
   return (
-    <div className="h-[400px] md:h-[600px] lg:h-[750px] border h-full border-gray-800 overflow-hidden">
+    <div className="h-[400px] md:h-[600px] lg:h-[750px] border border-gray-800 overflow-hidden">
       <MapContainer center={[0, 0]} zoom={2} className="w-full h-[400px] md:h-[600px] lg:h-[750px]">
         <TileLayer url="https://api.maptiler.com/maps/basic-v2/{z}/{x}/{y}.png?key=D5NzAS4gSDH0nxZ7amTw" />
         {countryDataFormatted.length > 0 &&
