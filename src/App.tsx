@@ -1,7 +1,5 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import { store } from "./redux/store";
-import { Provider } from "react-redux";
 
 import Contacts from "./pages/Contacts";
 import ChartsAndMaps from "./pages/ChartsAndMaps";
